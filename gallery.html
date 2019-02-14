@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="logo">
+<a href="index.html"><img src="images/2xulogo.png" alt=“2XU"></a>
+</div>
+<div class="contacts">
+<a href = "mailto:enquiries@gymmboxx.com"><img src="images/email.png" width="20" height="20" alt=“email"></a>
+<a href = "https://www.facebook.com/2XUCompressionRunSG/"><img src="images/facebook.png" width="20" height="20" alt=“email"></a>
+</div>
+
+
+<div class="navbar">
+  <div class="dropdown">
+  	<button class="dropbtn" onclick="myFunction()">HOME
+    		<i class="fa fa-caret-down"></i>
+  	</button>
+    <div class="dropdown-content" id="myDropdown">
+    	<a href="index.html#detail">RACE DETAIL</a>
+    	<a href="index.html#categories">RACE CATEGORIES</a>
+    	<a href="index.html#entitlement">RACE ENTITLEMENT</a>
+	<a href="index.html#prizes">COMPETITIVE PRIZES</a>
+        <a href="index.html#sponsorship">SPONSORS & PARTNERS</a>
+    </div>
+  </div>
+    <a href="gallery.html">GALLERY</a>
+    <a href="merchandise.html">MERCHANDISE</a>
+    <a href="rulesandregulation.html">RULES & REGULATION</a>
+    <br>
+</div>
+
+
+<a href ="https://reg5.digitalracesolutions.com.sg/cgi-bin/registration/2xu2019/prereg.cgi">
+<img src="images/background.jpg" alt=“2XU” width="1260px">
+</a>
+<center>
+<!--Bar Section-->
+<div class='menu-container'>
+      <ul id='menu'>
+        <li>7 APRIL 2019</li>
+        <li>4:30AM</li>
+        <li>F1 PIT BUILDING</li>
+
+<!--Countdown clock-->
+<div id="clockdiv"> 
+<div> 
+	<span class="days" id="day"></span> 
+	<div class="smalltext">Days</div> 
+</div> 
+<div> 
+	<span class="hours" id="hour"></span> 
+	<div class="smalltext">Hours</div> 
+</div> 
+<div> 
+	<span class="minutes" id="minute"></span> 
+	<div class="smalltext">Minutes</div> 
+</div> 
+<div> 
+	<span class="seconds" id="second"></span> 
+	<div class="smalltext">Seconds</div> 
+</div> 
+</div> 
+
+<p id="demo"></p> 
+</ul>
+     
+</div>
+
+    <h1 id="title2">GALLERY</h1>
+    
+<br>
+  	<center><p class="photos">2XU COMPRESSION RUN SINGAPORE 2018 WAS A SUCCESS AND MANY BEAUTIFUL PICTURES WERE CAPTURED DURING THE RACE. <br>IT WAS A MEMORABLE RACE DAY FOR ALL THE PARTICIPANTS LAST YEAR. <br> WHAT ARE YOU WATING FOR? JOIN THE RUN <b><i><u><a href ="https://reg5.digitalracesolutions.com.sg/cgi-bin/registration/2xu2019/prereg.cgi">NOW <u></b></i>!!</p></a>
+
+
+<p>
+<center>
+<video width="520" height="440" controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</center></p>
+
+<br>
+<div class="slideshow-container">
+
+ 	<div class="mySlides fade">
+  		<div class="numbertext">1 / 9</div>
+  		<img src="images/logo2018.png" style="width:30%">
+	</div>
+
+	<div class="mySlides fade">
+  		<div class="numbertext">2 / 9</div>
+  		<img src="images/2xu1.jpg" style="width:50%">
+	</div>
+
+	<div class="mySlides fade">
+  		<div class="numbertext">3 / 9</div>
+  		<img src="images/2xu2.jpg" style="width:50%">
+	</div>
+        
+       <div class="mySlides fade">
+  		<div class="numbertext">4 / 9</div>
+  		<img src="images/2xu3.jpg" style="width:50%">
+	</div>
+
+        <div class="mySlides fade">
+  		<div class="numbertext">5 / 9</div>
+  		<img src="images/2xu4.jpg" style="width:50%">
+	</div>
+
+     
+        <div class="mySlides fade">
+  		<div class="numbertext">6 / 9</div>
+  		<img src="images/2xu5.jpg" style="width:50%">
+	</div>
+     
+        <div class="mySlides fade">
+  		<div class="numbertext">7 / 9</div>
+  		<img src="images/2xu6.jpg" style="width:50%">
+	</div>
+ 
+        <div class="mySlides fade">
+  		<div class="numbertext">8 / 9</div>
+  		<img src="images/2xu7.jpg" style="width:50%">
+ 	</div>
+ 
+        <div class="mySlides fade">
+  		<div class="numbertext">9 / 9</div>
+  		<img src="images/2xu8.jpg" style="width:50%">
+	</div>       
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+
+<br>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+</div>	
+</div>
+<br>
+</center>
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+
+<!--Countdown clock-->
+var deadline = new Date("apr 07, 2019 04:30:00").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;
+
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000);
+
+</script>    	
+    
+</body>
+</html>
